@@ -1,0 +1,7 @@
+#home{
+    background-image: url('../images/wave.png');
+    background-position: bottom;
+}
+.container{
+    display: flex;
+}

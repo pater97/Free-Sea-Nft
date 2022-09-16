@@ -1,0 +1,32 @@
+#nav{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-radius: 20px;
+    list-style: none
+}
+#nav ul li a{
+    text-decoration: none;
+    color: #FCDDEC;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-family: pixelBug;
+    letter-spacing: .5rem;
+    transition: all .2s ease-in-out;
+}
+
+#nav ul li a:hover{
+    color: #5D5FEF!important;
+}
+
+.active{
+    color: #5D5FEF!important;
+}

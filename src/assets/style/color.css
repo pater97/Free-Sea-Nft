@@ -1,0 +1,52 @@
+.brand-color{
+    color:#5D5FEF
+}
+.brand-color-bg{
+    background-color: #5D5FEF;
+}
+.medium-brand-color{
+    color: #7879F1;
+}
+.medium-brand-color-bg{
+    background-color: #7879F1;
+}
+.ligth-brand-color{
+    color:#A5A6F6
+}
+.ligth-brand-color-bg{
+    background-color:#A5A6F6
+}
+
+
+.secondary-color{
+    color:#EF5DA8
+}
+.secondary-color-bg{
+    background-color: #EF5DA8;
+}
+.medium-secondary-color{
+    color: #F178B6;
+}
+.medium-secondary-color-bg{
+    background-color: #F178B6;
+}
+.ligth-secondary-color{
+    color:#FCDDEC
+}
+.ligth-secondary-color-bg{
+    background-color:#FCDDEC
+}
+
+@font-face {
+    font-family: 'PixelBug';
+    src: 
+        local('MyFont'),
+        url(../fonts/Pixel\ Bug.woff) format('woff'),
+        url(../fonts/Pixel\ Bug.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.pixel-text{
+    font-family: 'pixelBug';
+}
